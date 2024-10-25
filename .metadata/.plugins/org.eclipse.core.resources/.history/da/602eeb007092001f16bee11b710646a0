@@ -1,0 +1,17 @@
+package com.firstproject.conditional;
+
+public class IfElse {
+	
+	public static void main(String[] args) {
+		
+		int number = 1000;
+		
+		if (number > 100) {
+			System.out.println();
+		} else {
+
+		}
+		
+	}
+
+}

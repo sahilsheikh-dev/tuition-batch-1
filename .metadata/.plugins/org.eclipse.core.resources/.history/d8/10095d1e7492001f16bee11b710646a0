@@ -1,0 +1,18 @@
+package com.firstproject.conditional;
+
+public class NestedIfElse {
+	
+	public static void main(String[] args) {
+		
+		boolean isPrimeMember = true;
+		int amount = 100;
+		
+		if () {
+			
+		} else {
+
+		}
+		
+	}
+
+}

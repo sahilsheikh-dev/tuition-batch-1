@@ -1,0 +1,13 @@
+package com.firstproject.conditional;
+
+public class IfElse {
+	
+	public static void main(String[] args) {
+		
+		int number = 1000;
+		
+		
+		
+	}
+
+}

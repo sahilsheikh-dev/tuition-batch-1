@@ -1,0 +1,13 @@
+package com.firstproject;
+
+public class UserInput {
+	
+	public static void main(String[] args) {
+		
+//		Class objectName = new Class(value);
+		
+		Scanner scan = new Scanner(System.in);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.firstproject.conditional;
+
+public class SwitchCase {
+	
+	public static void main(String[] args) {
+		
+		int number = 10;
+		
+		switch (number) {
+		case 0:
+			
+		}
+		
+	}
+
+}

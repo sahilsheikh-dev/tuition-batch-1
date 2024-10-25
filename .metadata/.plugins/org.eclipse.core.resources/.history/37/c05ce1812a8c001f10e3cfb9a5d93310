@@ -1,0 +1,16 @@
+package com.firstproject;
+
+import java.util.Scanner;
+import com.firstproject.DataTypesVariables;
+
+public class UserInput {
+	
+	public static void main(String[] args) {
+		
+//		Class objectName = new Class(value);
+		
+		Scanner scan = new Scanner(System.in);
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.firstproject;
+
+import java.util.Scanner;
+
+public class UserInput {
+
+	public static void main(String[] args) {
+
+//		Class objectName = new Class(value);
+
+		Scanner abc = new Scanner(System.in);
+
+		byte age = abc.nextByte();
+		System.out.println("My Age is " + age);
+		
+		short carNumber = abc.nextShort();
+		System.out.println();
+
+	}
+
+}

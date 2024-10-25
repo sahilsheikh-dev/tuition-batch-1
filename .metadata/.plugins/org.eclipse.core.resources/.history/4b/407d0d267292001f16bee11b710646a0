@@ -1,0 +1,10 @@
+package com.firstproject.conditional;
+
+public class IfElseLadder {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.firstproject.conditional;
+
+public class IfElseLadder {
+
+	public static void main(String[] args) {
+		
+		int percentage = 20;
+		
+		/*
+		 * A	above 90
+		 * B	55 to 
+		 * C	45 to 55
+		 * D	35 to 45
+		 * E	below 35 (fail)
+		 * */
+		
+		if () {
+			
+		} else {
+
+		}
+
+	}
+
+}
