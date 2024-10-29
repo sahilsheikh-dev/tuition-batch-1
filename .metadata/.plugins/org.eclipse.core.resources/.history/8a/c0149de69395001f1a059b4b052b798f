@@ -1,0 +1,27 @@
+package com.firstproject.loops;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+
+		/*
+		 * starting value
+		 * ending value
+		 * incremental or decremental
+		 * 
+		 * */
+		
+		/*
+		 * 1, 2, 3, ..., 10
+		 * for (start_value; end_value; incremental/decremental) {
+		 * 		// code
+		 * }
+		 * */
+		
+		for (int i = 1; i <= 10; i++) {
+			
+		}
+		
+	}
+
+}

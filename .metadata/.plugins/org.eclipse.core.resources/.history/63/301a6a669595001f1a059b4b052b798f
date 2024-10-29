@@ -1,0 +1,17 @@
+package com.firstproject.loops;
+
+public class WhileLoop {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * condition
+		 * */
+		
+		int i = 1;
+		
+		
+		
+	}
+
+}
