@@ -1,1 +1,1 @@
-Java Project files for Java Batch 1
+Tuition Project files for Batch 1
