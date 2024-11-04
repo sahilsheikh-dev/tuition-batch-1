@@ -1,4 +1,4 @@
-package com.firstproject.methods;
+package com.firstproject.basicjava.methods;
 
 public class TypesOfMethods {
 	

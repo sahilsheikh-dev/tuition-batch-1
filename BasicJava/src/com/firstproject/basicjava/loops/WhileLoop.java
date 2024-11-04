@@ -1,4 +1,4 @@
-package com.firstproject.loops;
+package com.firstproject.basicjava.loops;
 
 public class WhileLoop {
 	

@@ -1,4 +1,4 @@
-package com.firstproject.conditional;
+package com.firstproject.basicjava.conditional;
 
 import java.util.Scanner;
 

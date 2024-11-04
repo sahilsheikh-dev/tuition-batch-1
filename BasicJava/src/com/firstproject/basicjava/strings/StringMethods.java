@@ -1,4 +1,4 @@
-package com.firstproject.strings;
+package com.firstproject.basicjava.strings;
 
 public class StringMethods {
 

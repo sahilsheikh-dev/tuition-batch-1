@@ -1,4 +1,4 @@
-package com.firstproject.basic;
+package com.firstproject.basicjava.basic;
 
 import java.util.Scanner;
 

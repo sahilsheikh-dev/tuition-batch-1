@@ -1,4 +1,4 @@
-package com.firstproject.arrays;
+package com.firstproject.basicjava.arrays;
 
 public class Array1000 {
 
