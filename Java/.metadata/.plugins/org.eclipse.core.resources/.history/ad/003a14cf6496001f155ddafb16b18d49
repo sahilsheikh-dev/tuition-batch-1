@@ -1,0 +1,14 @@
+package com.firstproject.loops;
+
+public class EnhancedForLoop {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * question
+		 * 
+		 * */
+		
+	}
+
+}

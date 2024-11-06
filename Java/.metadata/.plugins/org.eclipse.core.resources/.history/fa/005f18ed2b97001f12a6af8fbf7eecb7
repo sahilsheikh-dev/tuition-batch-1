@@ -1,0 +1,13 @@
+package com.firstproject.arrays;
+
+public class CharArrays {
+	
+	public static void main(String[] args) {
+		
+		char[] charArray = {'A', 'E', 'I', 'O', 'U'};
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.firstproject.loops;
+
+public class EnhancedForLoop {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * question
+		 * answer
+		 * check
+		 * output - rigte or wrong
+		 * */
+		
+	}
+
+}

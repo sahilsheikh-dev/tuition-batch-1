@@ -1,0 +1,36 @@
+package com.firstproject.methods;
+
+public class TypesOfMethods {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * instance method
+		 * static method
+		 * */
+		
+		TypesOfMethods obj1 = new TypesOfMethods();
+		System.out.println(obj1.greeting1());
+		System.out.println(obj1.greeting2());
+		obj1.greeting3();
+		
+		
+		
+	}
+	
+	public int greeting1() {
+		System.out.println("Greetings 1");
+		return 67895;
+	}
+	
+	public String greeting2() {
+		System.out.println("Greetings 2");
+		return "Abc";
+	}
+	
+	public void greeting3() {
+		System.out.println("Greetings 3");
+//		no need to return anything in void return type
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.firstproject.arrays;
+
+public class StringArrays {
+
+	public static void main(String[] args) {
+
+		String[] stArray = { "", "", "", "", "" };
+
+	}
+
+}

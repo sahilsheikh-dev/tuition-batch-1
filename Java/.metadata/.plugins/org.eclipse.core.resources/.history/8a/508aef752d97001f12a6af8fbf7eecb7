@@ -1,0 +1,13 @@
+package com.firstproject.methods;
+
+public class AccessModifier {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * 
+		 * */
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.firstproject.methods;
+
+public class TypesOfMethods {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * instance method
+		 * static method
+		 * */
+		
+	}
+	
+	public int greetings() {
+		return 0;
+	}
+	
+	public String greetings() {
+		return ";
+	}
+
+}

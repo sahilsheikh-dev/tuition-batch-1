@@ -1,0 +1,28 @@
+package com.firstproject.arrays;
+
+public class IntArrays {
+
+	public static void main(String[] args) {
+
+//		1,2,3,4,4,5,6,6,67,7,9
+
+//		data_type[] variable_name = {1,2,3,4,4,5,6,6,67,7,9};
+
+//		data_type[] variable_name = new data_type[10];
+//		vaiable_name[0] = 1;
+//		vaiable_name[1] = 2;
+//		vaiable_name[2] = 3;
+//		vaiable_name[3] = 4;
+//		vaiable_name[4] = 5;
+
+		int[] arr1 = { 1, 2, 3, 4, 4, 5, 6, 6, 67, 7, 9 };
+		
+		for(int i = 0; i < 11; ) {
+			
+		}
+
+//		int arr2[] = new int[10];
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.firstproject.loops;
+
+public class EnhancedForLoop {
+	
+	public static void main(String[] args) {
+		
+		// Program to check if a number is even or odd
+
+		public class EvenOddChecker {
+
+		    public static void main(String[] args) {
+		        int number = 10;
+
+		        // Check if the remainder of dividing 'number' by 2 is equal to 0
+		        if (number % 2 == 0) {
+		            // If the condition is true, print 'number' is even
+		            System.out.println(number + " is even");
+		        } else {
+		            // If the condition is false, print 'number' is odd
+		            System.out.println(number + " is odd");
+		        }
+		    }
+		}
+		
+	}
+
+}

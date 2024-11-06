@@ -1,0 +1,45 @@
+package com.firstproject.basicjava.methods;
+
+public class MethodStructure {
+
+	public static void main(String[] args) {
+
+		/*
+		 * 
+		 * parameterized methods -
+		 * 
+		 * non-parameterized methods -
+		 * 
+		 * access_modifier return_type method_name (data_type parameter_1, data_type
+		 * parameter_2) {
+		 * 
+		 * }
+		 * 
+		 */
+
+		MethodStructure obj1 = new MethodStructure();
+		System.out.println(obj1.add(25, 76));
+
+	}
+	
+	public int add(int n1, int n2) {
+		int sum = n1 + n2;
+		return sum;
+	}
+
+	public int add(int n1, int n2) {
+		int sum = n1 + n2;
+		return sum;
+	}
+
+	public int add(int n1, int n2, int n3) {
+		int sum = n1 + n2 + n3;
+		return sum;
+	}
+
+	public float add(float n1, float n2) {
+		float sum = n1 + n2;
+		return sum;
+	}
+
+}

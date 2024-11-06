@@ -1,0 +1,47 @@
+package com.firstproject.arrays;
+
+public class IntArrays {
+
+	public static void main(String[] args) {
+
+//		1,2,3,4,4,5,6,6,67,7,9
+
+//		data_type[] variable_name = {1,2,3,4,4,5,6,6,67,7,9};
+
+//		data_type[] variable_name = new data_type[10];
+//		vaiable_name[0] = 1;
+//		vaiable_name[1] = 2;
+//		vaiable_name[2] = 3;
+//		vaiable_name[3] = 4;
+//		vaiable_name[4] = 5;
+
+		int[] arr1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+
+//		System.out.println(arr1[0]);
+//		System.out.println(arr1[1]);
+//		System.out.println(arr1[2]);
+
+		arr1[5] = 61;
+
+		System.out.println(arr1.length);
+
+		for (int i = 0; i < arr1.length; i++) {
+			System.out.print(arr1[i] + ", ");
+		}
+
+		System.out.println("\n===================================");
+
+		int arr2[] = new int[5];
+		arr2[0] = 34;
+		arr2[1] = 345;
+		arr2[2] = 234;
+		arr2[3] = 45;
+		arr2[4] = 25;
+
+		for (int i = 0; i < arr2.length; i++) {
+			System.out.print(arr2[i] + ", ");
+		}
+
+	}
+
+}
