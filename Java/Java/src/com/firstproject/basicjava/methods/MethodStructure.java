@@ -11,8 +11,8 @@ public class MethodStructure {
 		 * non-parameterized methods -
 		 * 
 		 * access_modifier return_type method_name (data_type parameter_1, data_type
-		 * parameter_2) {
-		 * 
+		 * parameter_2, etc) {
+		 * 		// code
 		 * }
 		 * 
 		 */
