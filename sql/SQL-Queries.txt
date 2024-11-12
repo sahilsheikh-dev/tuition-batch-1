@@ -1,0 +1,25 @@
+SQL - Structure Query Language, it is used to perform operations on the databases.
+Databases Example: MySQL, Oracle, PostgresSQL, etc.
+Queries - it is a command to perform operations on the database.
+Important Queries - CRUD - Create, Reatrieve, Update, Delete
+
+Database Queries:
+show databases;	-	to show existing databases
+create database <database-name>;	-	to create a new database;
+use <database-name>;	-	to select the database
+
+Table Queries:
+show tables;	-	to show existing tables
+create table -
+	varchar - char/string
+	int/number - number
+	create table <table-name> (col_1 type, col_2 type, col_3 type, ...);
+desc <table-name>;	-	to show description of a table
+select * from <table-name> - to retrieve the data from table
+insert into - 
+	insert into <table-name> values (101, 'Sahil', 100000);
+	insert into <table-name> (col_1, col_2) values (data_1, data_2);
+update data - to update the data in the table
+	update <table-name> set col_1 = data_1, col_2 = data_2 where(col_n = data_n);
+delete data - to delete the table row
+	delete from <table-name> where(col_n = data_n);
