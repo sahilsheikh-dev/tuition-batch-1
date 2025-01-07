@@ -10,7 +10,7 @@ import com.myhibernate.tuition.Students;
  * Hello world!
  *
  */
-public class App {
+public class AnotherApp {
 	public static void main(String[] args) {
 		System.out.println("Hibernate Application Started");
 
