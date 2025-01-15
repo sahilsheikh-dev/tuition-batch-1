@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import NotesCard from "./NotesCard";
 
 const NotesCardsSection = () => {
-  const URL = "http://localhost:3000/";
+  const BASE_URL = "http://localhost:3000/";
   const [notes, setNotes] = useState();
 
   const fetchNotes = () => {
@@ -13,13 +13,31 @@ const NotesCardsSection = () => {
       },
     };
 
-    fetch(URL + "getAllNotes", options)
+    fetch(BASE_URL + "getAllNotes", options)
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
         setNotes(data);
       })
       .catch((err) => console.error(err));
+  };
+
+  const deleteNotes = (id) => {
+    const options = {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    };
+
+    fetch(BASE_URL + "deleteNote/" + id, options)
+      .then((res) => {
+        if (res.ok) {
+          alert("Note Deleted");
+          fetchNotes();
+        }
+      })
+      .catch((err) => alert(err));
   };
 
   useEffect(() => {
@@ -39,7 +57,12 @@ const NotesCardsSection = () => {
         }}
       >
         {notes?.map((item, key) => (
-          <NotesCard key={key} id={item.id} title={item.title} />
+          <NotesCard
+            key={key}
+            id={item.id}
+            title={item.title}
+            deleteNotes={deleteNotes}
+          />
         ))}
       </div>
     </>
