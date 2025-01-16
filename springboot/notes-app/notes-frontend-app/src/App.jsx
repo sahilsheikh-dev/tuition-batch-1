@@ -1,20 +1,19 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import NotesDetailPage from "./pages/NotesDetailPage";
+import AddNotePage from "./pages/AddNotePage";
+import UpdateNotePage from "./pages/UpdateNotePage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/noteDetails/:id" element={<NotesDetailPage />} />
+          <Route path="/addNote" element={<AddNotePage />} />
+          <Route path="/updateNote/:id" element={<UpdateNotePage />} />
         </Routes>
       </BrowserRouter>
     </>
